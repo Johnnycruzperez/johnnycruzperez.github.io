@@ -71,3 +71,6 @@ li a:hover {
 .tipo_info {
     font-family: 'Sarabun', sans-serif;
 }
+.fondo_oscuro{
+    background-color: rgb(85, 101, 79);
+}
