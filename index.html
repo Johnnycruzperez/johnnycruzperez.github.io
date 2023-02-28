@@ -10,8 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&family=Sarabun:wght@100&display=swap"
     rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="estilos.css">
 
@@ -24,10 +27,12 @@
       <img src="imagenes/perfil.png" width="150" class="sombra bordeado">
       <ul class="p-0">
         <li><a href="#sobre-mi" class="tipo_titulos">Sobre mi</a></li>
-        <li><a href="#estudios" class="tipo_titulos">Estudio</a></li>
+        <li><a href="#estudios" class="tipo_titulos">Estudios</a></li>
         <li><a href="#experiencia" class="tipo_titulos">Experiencia</a></li>
         <li><a href="#trabajos" class="tipo_titulos"> Trabajos</a></li>
         <li><a href="#contacto" class="tipo_titulos">Contacto</a></li>
+
+
       </ul>
     </div>
   </div>
@@ -37,8 +42,8 @@
   </div>
 
   <div id="contenido">
-    <h1 id="sobre-mi" class="tipo_titulos">Sobre mi</h1>
-    <ul class="tipo_info">
+    <h1 id="sobre-mi" class="tipo_titulos_2">Sobre mi</h1>
+    <ul class="tipo_info espacios">
       <li>Nombre: Juan Perez</li>
       <li>Email: email@email.com</li>
       <li>Nacimiento: 10/10/1912 D.C.</li>
@@ -48,16 +53,16 @@
       <li>Pais: Argentina</li>
     </ul>
 
-    <h1 id="estudios" class="tipo_titulos">Estudios</h1>
-    <ul>
+    <h1 id="estudios" class="tipo_titulos_2">Estudios</h1>
+    <ul class="tipo_info espacios">
       <li>Primario y secundario: Escuela Normal Mariano Acosta</li>
       <li>Técnico mecánico automotriz IAM</li>
       <li>Ingeniería de autos eléctricos UTN</li>
       <li>Técnico electricista industrial UOCRA/Bs. As.</li>
     </ul>
 
-    <h1 id="experiencia" class="tipo_titulos">Experiencia</h1>
-    <ul>
+    <h1 id="experiencia" class="tipo_titulos_2">Experiencia</h1>
+    <ul class="tipo_info espacios">
       <li>Fotografía 2022 - Actualidad</li>
       <li>Animación 2D, 3D y FX 2018 - 2022</li>
       <li>Edición de videos 2015 - 2018</li>
@@ -66,24 +71,32 @@
       <li>Piloto de pruebas F1 escudería MDP 1736 - 1971</li>
     </ul>
 
-    <h1 id="trabajos" class="tipo_titulos">Trabajos</h1>
-    <p>FX a pedido de Jorge Miles</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/v8jXEsuZH-w" title="YouTube video player"
+    <h1 id="trabajos" class="tipo_titulos_2">Trabajos</h1>
+    <ul class="tipo_info">
+      FX a pedido de Jorge Miles</ul>
+    <iframe width="480" height="270" src="https://www.youtube.com/embed/v8jXEsuZH-w" title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
-    <p>Entrenamiento F1 Circuito Interlagos</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PDywmwqgKrs" title="YouTube video player"
+
+    <ul class="tipo_info">
+      Entrenamiento F1 Circuito Interlagos</ul>
+    <iframe width="480" height="270" src="https://www.youtube.com/embed/PDywmwqgKrs" title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
-    <p>Gravedad cero</p>
-    <video width="320" height="240" controls muted>
+
+    <ul class="tipo_info">
+      Gravedad cero</ul>
+    <video width="480" height="270" controls muted>
       <source src="videos/gravedad-cero.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
-    <div id="carouselExample" class="carousel slide w-50 fondo_oscuro">
+    <ul class="tipo_info">
+      Modelado 3D</ul>
+
+    <div id="carouselExample" class="carousel slide w-50 fondo_oscuro margen_carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="imagenes/1.jpeg" class="d-block w-50 mx-auto" alt="Flor_1">
@@ -114,55 +127,30 @@
       </button>
     </div>
 
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">Nombre</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Apellido</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Pais</label>
+        <select id="country" name="country">
+          <option value="australia">Argentina</option>
+          <option value="canada">Fuera de Argentina</option>
+        </select>
+    
+        <label for="subject">Asunto</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
 
-
-
-
-<!-- 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="imagenes/1.jpeg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="imagenes/2.jpeg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="imagenes/3.jpeg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="imagenes/4.jpeg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-25" src="imagenes/5.jpeg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-25" src="imagenes/6.jpeg" alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="anterior">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="siguiente">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> -->
-
-
-
-<!-- 
-    <p>Flowers 01</p>
-    <img src="imagenes/1.jpeg" width="400">
-    <p>Flowers 02</p>
-    <img src="https://hilorojopost.com.ar/assets/flor_1.jpeg" width="400">
-    <p>Flowers 03</p>
-    <img src="imagenes/5.jpeg" width="400">
-    <p>Flowers 04</p>
-    <img src="imagenes/6.jpeg" width="400">
- -->
-    <h1 id="contacto" class="tipo_titulos">Contacto</h1>
+    <!-- <h1 id="contacto" class="tipo_titulos">Contacto</h1>
     <ul>
       <li>Email: <a href="mailto:email@email.com">email@email.com</a></li>
     </ul>
@@ -179,7 +167,7 @@
 
       <input type="submit" value="Submit">
 
-    </form>
+    </form> -->
 
 
   </div>
