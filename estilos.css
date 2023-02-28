@@ -22,7 +22,8 @@ li a:hover {
 }
 
 .centrado_texto {
-    text-align: center;
+    text-align: center;/* 
+    padding: 0; */
 }
 
 .sombra {
