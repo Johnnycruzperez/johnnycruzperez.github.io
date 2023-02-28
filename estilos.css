@@ -62,3 +62,11 @@ li a:hover {
     height: 100%;
 
 }
+
+.tipo_titulos {
+    font-family: 'Noticia Text', serif;
+}
+
+.tipo_info {
+    font-family: 'Sarabun', sans-serif;
+}
