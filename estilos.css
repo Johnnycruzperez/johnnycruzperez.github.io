@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(79, 96, 88);
+    color: aliceblue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+li a {
+    display: block;
+    color: #f4f0f0;
+    padding: 8px 16px;
+    text-decoration: beige;
+}
+li a:hover {
+    background-color: #d3d3d3;
+    color: rgb(0, 0, 0);
+}
+li {
+    text-align: center;
+}
+.sombra {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
