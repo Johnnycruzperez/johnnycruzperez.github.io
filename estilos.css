@@ -23,8 +23,7 @@ li a:hover {
 
 .centrado_texto {
     text-align: center;
-    /* 
-    padding: 0; */
+    
 }
 
 .sombra {
@@ -94,6 +93,10 @@ li a:hover {
 
 .espacios {
     margin: 0% 0% 50px 25px;
+}
+
+.espacios_2 {
+    margin: 25px 0% 0px 0px;
 }
 
 input[type=text],
