@@ -3,10 +3,14 @@ body {
     color: aliceblue;
 }
 
+.color_div1 {
+    background-color: rgb(84, 93, 89)
+    
+}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
 li a {
@@ -23,7 +27,7 @@ li a:hover {
 
 .centrado_texto {
     text-align: center;
-    
+
 }
 
 .sombra {
@@ -84,7 +88,7 @@ li a:hover {
 
 .tipo_info {
     font-family: 'Sarabun', sans-serif;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .fondo_oscuro {
@@ -92,7 +96,7 @@ li a:hover {
 }
 
 .espacios {
-    margin: 0% 0% 50px 25px;
+    margin: 0% 0% 50px 10px;
 }
 
 .espacios_2 {
