@@ -106,10 +106,6 @@ li a:hover {
 
 }
 
-.margen_carousel {
-    margin-bottom: 40%;
-}
-
 
 .tipo_info {
     font-family: 'Sarabun', sans-serif;
@@ -169,4 +165,9 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+.padiing_botton
+{
+    padding-bottom: 16%;
 }
