@@ -6,7 +6,20 @@ body {
 .color_div1 {
     background-color: rgb(84, 93, 89);
     width: 500px;
-    
+
+}
+
+.color_div2 {
+    background-color: rgb(84, 93, 89);
+    margin: 10px 10px 10px 10px;
+    width: 480px;
+
+}
+
+.color_div3 {
+    background-color: rgb(0, 0, 0);
+
+
 }
 
 ul {
@@ -42,6 +55,13 @@ li a:hover {
 
 .bordeado {
     border: 2px solid rgb(0, 0, 0);
+
+}
+
+.bordeado_2 {
+    border-radius: 10px;
+    border: 4px ridge rgb(121, 152, 139);
+    margin-bottom: 40px;
 
 }
 
@@ -97,7 +117,7 @@ li a:hover {
 }
 
 .fondo_oscuro {
-    background-color: rgb(85, 101, 79);
+    background-color: rgb(0, 0, 0);
 }
 
 .espacios {
@@ -134,7 +154,7 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
