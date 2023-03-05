@@ -129,7 +129,7 @@ input[type=text],
 select,
 textarea {
     background-color: #c9cdc9;
-    
+
     width: 100%;
 
     padding: 4px;
@@ -167,7 +167,7 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.padiing_botton
-{
+.padiing_botton {
     padding-bottom: 16%;
 }
+
