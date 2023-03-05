@@ -4,7 +4,8 @@ body {
 }
 
 .color_div1 {
-    background-color: rgb(84, 93, 89)
+    background-color: rgb(84, 93, 89);
+    width: 500px;
     
 }
 
@@ -33,6 +34,10 @@ li a:hover {
 .sombra {
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
+}
+
+.sombra_2 {
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bordeado {
@@ -96,11 +101,12 @@ li a:hover {
 }
 
 .espacios {
-    margin: 0% 0% 50px 10px;
+    margin: 10px 0px 80px 0px;
+    padding: 15px 15px 15px 35px;
 }
 
 .espacios_2 {
-    margin: 25px 0% 0px 0px;
+    margin: 25px 0% 25px 0px;
 }
 
 input[type=text],
