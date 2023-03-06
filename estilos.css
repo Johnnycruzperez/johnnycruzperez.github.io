@@ -171,3 +171,7 @@ input[type=submit]:hover {
     padding-bottom: 16%;
 }
 
+.invisibilidad{
+    visibility: hidden;
+
+}
