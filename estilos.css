@@ -129,21 +129,13 @@ input[type=text],
 select,
 textarea {
     background-color: #c9cdc9;
-
     width: 100%;
-
     padding: 4px;
-
     border: 1px solid #ccc;
-
     border-radius: 4px;
-
     box-sizing: border-box;
-
     margin-top: 6px;
-
     margin-bottom: 16px;
-
     resize: horizontal
 }
 
@@ -171,7 +163,7 @@ input[type=submit]:hover {
     padding-bottom: 16%;
 }
 
-.invisibilidad{
+.invisibilidad {
     visibility: hidden;
 
 }
