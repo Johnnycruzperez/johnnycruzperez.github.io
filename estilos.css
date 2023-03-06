@@ -2,16 +2,13 @@ body {
     background-color: rgb(127, 146, 137);
     background-size: 100%;
     color: aliceblue;
-    /* 
     background-blend-mode: multiply;
     background-image: url("imagenes/fondo.png");
-     */
 }
 
 .color_div1 {
     background-color: rgb(84, 93, 89);
     width: 500px;
-
 }
 
 .color_div2 {
@@ -74,9 +71,6 @@ li a:hover {
     top: 0;
     left: 0px;
     bottom: 0%;
-
-    background-blend-mode: multiply;
-    background-image: url("imagenes/fondo.png");
 }
 
 #menu_fantasma {
