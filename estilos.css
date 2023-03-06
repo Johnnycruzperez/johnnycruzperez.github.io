@@ -4,6 +4,7 @@ body {
     color: aliceblue;
     background-blend-mode: multiply;
     background-image: url("imagenes/fondo.png");
+    
 }
 
 .color_div1 {
