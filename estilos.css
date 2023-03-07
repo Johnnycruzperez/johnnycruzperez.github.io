@@ -30,7 +30,7 @@ li a {
     display: block;
     color: #f4f0f0;
     padding: 8px 16px;
-    text-decoration: beige;
+/*     text-decoration: beige; */
 }
 
 li a:hover {
@@ -90,7 +90,6 @@ li a:hover {
     margin-right: 40px;
     background-color: rgb(64, 75, 72);
     height: 100%;
-
 }
 
 .tipo_titulos {
@@ -103,7 +102,6 @@ li a:hover {
 .tipo_titulos_2 {
     font-family: 'Noticia Text', serif;
     font-size: xx-large;
-
 }
 
 
@@ -166,5 +164,4 @@ input[type=submit]:hover {
 
 .invisibilidad {
     visibility: hidden;
-
 }
