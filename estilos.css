@@ -2,7 +2,9 @@ body {
     background-color: rgb(127, 146, 137);
     background-size: 100%;
     color: aliceblue;
-    background-image: url("imagenes/fondo.png")
+    background-image: url("imagenes/fondo.png");
+    background-attachment: fixed;
+
 }
 
 .color_div1 {
@@ -29,7 +31,7 @@ li a {
     display: block;
     color: #f4f0f0;
     padding: 8px 16px;
-/*     text-decoration: beige; */
+    /*     text-decoration: beige; */
 }
 
 li a:hover {
