@@ -170,3 +170,7 @@ input[type=submit]:hover {
 .invisibilidad {
     visibility: hidden;
 }
+
+.margin-boton {
+    margin-bottom: 700px;
+}
