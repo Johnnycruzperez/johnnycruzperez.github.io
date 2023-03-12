@@ -116,9 +116,9 @@ li a:hover {
 }
 
 .espacios {
-    margin: 10px 0px 80px 0px;
+    margin: 0px 0px 100px 300px;
     border-radius: 5px;
-    padding: 15px 15px 15px 35px;
+    padding: 0px 0px 0px 35px;
 }
 
 .espacios_2 {
@@ -126,8 +126,18 @@ li a:hover {
 }
 
 .espacios_3 {
-    margin: 0px 0% 400px 0px;
+    margin: 50px 0% 10px 300px;
 }
+
+.espacios-div-2-titulos {
+    margin: 10px 0% 5px 300px;
+}
+
+.espacios-div-2 {
+    margin: 5px 0% 20px 300px;
+}
+
+
 
 input[type=text],
 select,
