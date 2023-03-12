@@ -7,18 +7,18 @@ body {
 
 }
 
-.color_div1 {
+.color-div1 {
     background-color: rgb(84, 93, 89);
     width: 500px;
 }
 
-.color_div2 {
+.color-div2 {
     background-color: rgb(84, 93, 89);
     margin: 10px 10px 10px 10px;
     width: 480px;
 }
 
-.color_div3 {
+.color-div3 {
     background-color: rgb(0, 0, 0);
 }
 
@@ -39,7 +39,7 @@ li a:hover {
     color: rgb(0, 0, 0);
 }
 
-.centrado_texto {
+.centrado-texto {
     text-align: center;
 
 }
@@ -49,7 +49,7 @@ li a:hover {
     border-radius: 50%;
 }
 
-.sombra_2 {
+.sombra-2 {
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -58,7 +58,7 @@ li a:hover {
 
 }
 
-.bordeado_2 {
+.bordeado-2 {
     border-radius: 5px;
     border: 4px ridge rgb(121, 152, 139);
     margin-bottom: 40px;
@@ -74,44 +74,38 @@ li a:hover {
     bottom: 0%;
 }
 
-#menu_fantasma {
-    display: block;
-    width: 25%;
-    float: left;
-    opacity: 0;
-}
 
 #contenido {
     width: 75%;
     float: left;
 }
 
-#contenido_menu {
+#contenido-menu {
     padding: 10px;
     margin-right: 40px;
     background-color: rgb(64, 75, 72);
     height: 100%;
 }
 
-.tipo_titulos {
+.tipo-titulos {
     font-family: 'Noticia Text', serif;
     font-size: larger;
     border-radius: 5px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.tipo_titulos_2 {
+.tipo-titulos-2 {
     font-family: 'Noticia Text', serif;
     font-size: xx-large;
 }
 
 
-.tipo_info {
+.tipo-info {
     font-family: 'Sarabun', sans-serif;
     margin-left: 0px;
 }
 
-.fondo_oscuro {
+.fondo-oscuro {
     background-color: rgb(0, 0, 0);
 }
 
@@ -121,11 +115,11 @@ li a:hover {
     padding: 0px 0px 0px 35px;
 }
 
-.espacios_2 {
+.espacios-2 {
     margin: 25px 0% 25px 0px;
 }
 
-.espacios_3 {
+.espacios-3 {
     margin: 50px 0% 10px 300px;
 }
 
@@ -166,14 +160,13 @@ input[type=submit]:hover {
     background-color: #3e583e;
 }
 
-
 .contacto {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
-.padiing_botton {
+.padiing-botton {
     padding-bottom: 16%;
 }
 
