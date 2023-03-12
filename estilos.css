@@ -121,8 +121,16 @@ li a:hover {
     padding: 15px 15px 15px 35px;
 }
 
+.espacios_1 {
+    margin: 250px 0% 0px 0px;
+}
+
 .espacios_2 {
     margin: 25px 0% 25px 0px;
+}
+
+.espacios_3 {
+    margin: 0px 0% 400px 0px;
 }
 
 input[type=text],
