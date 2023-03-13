@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
 }
 
-.datos_estilo {
+.datos-estilo {
     font-family: 'Sarabun', sans-serif;
     margin: 0px 0px 100px 300px;
     border-radius: 5px;
@@ -15,8 +15,7 @@ body {
     width: 500px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid rgb(0, 0, 0);
-
-
+    
 }
 
 .color-div1 {
