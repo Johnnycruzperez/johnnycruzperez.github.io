@@ -4,6 +4,18 @@ body {
     color: aliceblue;
     background-image: url("imagenes/fondo.png");
     background-attachment: fixed;
+}
+
+.datos_estilo {
+    font-family: 'Sarabun', sans-serif;
+    margin: 0px 0px 100px 300px;
+    border-radius: 5px;
+    padding: 0px 0px 0px 35px;
+    background-color: rgb(84, 93, 89);
+    width: 500px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid rgb(0, 0, 0);
+
 
 }
 
@@ -18,10 +30,6 @@ body {
     width: 480px;
 }
 
-.color-div3 {
-    background-color: rgb(0, 0, 0);
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -31,7 +39,6 @@ li a {
     display: block;
     color: #f4f0f0;
     padding: 8px 16px;
-    /*     text-decoration: beige; */
 }
 
 li a:hover {
@@ -41,16 +48,11 @@ li a:hover {
 
 .centrado-texto {
     text-align: center;
-
 }
 
 .sombra {
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
-}
-
-.sombra-2 {
-    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bordeado {
@@ -62,7 +64,6 @@ li a:hover {
     border-radius: 5px;
     border: 4px ridge rgb(121, 152, 139);
     margin-bottom: 40px;
-
 }
 
 #menu {
@@ -73,7 +74,6 @@ li a:hover {
     left: 0px;
     bottom: 0%;
 }
-
 
 #contenido {
     width: 75%;
@@ -92,6 +92,15 @@ li a:hover {
     font-size: larger;
     border-radius: 5px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+
+.recuadro-trabajo {
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    border: 4px ridge rgb(121, 152, 139);
+    margin-bottom: 40px;
+    margin: 5px 0% 20px 300px;
 }
 
 .tipo-titulos-2 {
@@ -126,11 +135,6 @@ li a:hover {
 .espacios-div-2-titulos {
     margin: 10px 0% 5px 300px;
 }
-
-.espacios-div-2 {
-    margin: 5px 0% 20px 300px;
-}
-
 
 
 input[type=text],
