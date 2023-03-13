@@ -10,10 +10,11 @@ body {
     margin: 0px 0px 100px 300px;
     border-radius: 5px;
     padding: px 0px 0px 35px;
-    background-color: rgb(84, 93, 89);
+    background-color: rgb(84, 93, 89, 50%);
     width: 480px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid rgb(0, 0, 0);
+
 }
 
 ul {
