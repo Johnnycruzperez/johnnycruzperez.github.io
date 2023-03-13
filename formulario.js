@@ -11,8 +11,3 @@ function borrado_envio() {
     document.getElementById("enviado").style = ""
 
 }
-
-function cambio_de_fondo() {
-    document.getElementById("experiencia").value = ""
-
-}
