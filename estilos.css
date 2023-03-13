@@ -5,19 +5,8 @@ body {
     background-attachment: fixed;
 }
 
-.datos-estilo {
-    font-family: 'Sarabun', sans-serif;
-    border-radius: 5px;
-    padding: 0px 0px 0px 35px;
-    background-color: rgb(84, 93, 89, 50%);
-    width: 480px;
-    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: 2px solid rgb(0, 0, 0);
-}
-
 .margen {
     margin: 0px 0px 10px 10px;
-
 }
 
 #contenido {
@@ -47,12 +36,10 @@ li a:hover {
 
 .sombra {
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 50%;
 }
 
 .bordeado {
     border: 2px solid rgb(0, 0, 0);
-
 }
 
 #menu {
@@ -71,22 +58,6 @@ li a:hover {
     height: 100%;
 }
 
-.tipo-titulos {
-    font-family: 'Noticia Text', serif;
-    font-size: larger;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-decoration: none;
-}
-
-.recuadro-trabajo {
-    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-    border: 4px ridge rgb(121, 152, 139);
-    margin-bottom: 40px;
-    margin: 5px 0% 20px 10px;
-}
-
 #menu-fantasma {
     display: block;
     width: 25%;
@@ -94,10 +65,33 @@ li a:hover {
     height: 300vh;
 }
 
+.tipo-titulos {
+    font-family: 'Noticia Text', serif;
+    font-size: larger;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 .tipo-titulos-2 {
     font-family: 'Noticia Text', serif;
     font-size: xx-large;
     margin: 50px 0% 10px 10px;
+}
+
+.datos-estilo {
+    font-family: 'Sarabun', sans-serif;
+    border-radius: 5px;
+    padding: 0px 0px 0px 35px;
+    background-color: rgb(84, 93, 89, 50%);
+    width: 480px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.recuadro-trabajo {
+    border-radius: 5px;
+    border: 4px ridge rgb(121, 152, 139);
+    margin-bottom: 40px;
+    margin: 5px 0% 20px 10px;
 }
 
 .fondo-oscuro {
@@ -155,7 +149,6 @@ input[type=submit]:hover {
     background-color: rgb(84, 93, 89);
     margin: 10px 10px 10px 10px;
     width: 480px;
-    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 2%;
     text-align: center;
     visibility: hidden;
