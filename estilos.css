@@ -5,10 +5,6 @@ body {
     background-attachment: fixed;
 }
 
-.margen {
-    margin: 0px 0px 10px 10px;
-}
-
 #contenido {
     float: left;
     width: 75%;
@@ -34,12 +30,21 @@ li a:hover {
     text-align: center;
 }
 
+.margen {
+    margin: 0px 0px 10px 10px;
+}
+
 .sombra {
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bordeado {
     border: 2px solid rgb(0, 0, 0);
+}
+
+.circulo {
+    border-radius: 50%;
+
 }
 
 #menu {
